@@ -8,7 +8,7 @@ class Rhombus:
             if not isinstance(value, (int, float)):
                 raise TypeError('Сторона повинна бути числом')
             if value > 0:
-                super().__setattr__(key, value)git push
+                super().__setattr__(key, value)
             else:
                 raise ValueError('Сторона повинна бути більше 0')
 

@@ -216,3 +216,49 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# Виртуальное окружение
+.venv/
+
+
+# Python
+
+*.py[cod]
+
+
+.vscode/
+
+
+.secrets.toml
+
+
+
+# Отчёты тестов
+report.html
+assets/
+allure-results/
+allure-report/
+
+# Скриншоты тестов
+screenshots/
+tests/ui/sause_demo/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Jenkins (данные из volume)
+jenkins_configuration/
+
+# Базы данных и временные файлы
+*.db
+*.sqlite3
+temp/
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
+
+

@@ -1,3 +1,4 @@
+from allure import step
 
 class BasePage:
     def __init__(self, page, base_url):
@@ -6,6 +7,6 @@ class BasePage:
         self.full_url = None
 
 
-
+    @step('Open page')
     def open(self):
         self.page.goto(f'{self.base_url}{self.full_url}')
